@@ -12,7 +12,7 @@ let obj = {};
 let requestUrl = $request.url;
 let $ = new Env(AppName);
 if (
-  /^https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts)?/.test(
+  /^https:\/\/api\.rc-backup\.com\/v1\/(subscribers|receipts)?/.test(
     requestUrl
   )
 ) {
